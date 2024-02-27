@@ -1,0 +1,9 @@
+"Id";"Designator";"Package";"Quantity";"Designation";"Supplier and ref";
+1;"R8,R7";"R_Axial_DIN0309_L9.0mm_D3.2mm_P12.70mm_Horizontal";2;"R";;;
+2;"J10";"PinSocket_2x20_P2.54mm_Vertical";1;"PiZero W";;;
+3;"J6";"PinHeader_1x04_P2.54mm_Vertical";1;"1x4";;;
+4;"J3";"PinHeader_2x06_P2.54mm_Vertical";1;"2x6";;;
+5;"C6";"CP_Radial_D10.0mm_P5.00mm";1;"10uF";;;
+6;"C5";"C_Disc_D6.0mm_W2.5mm_P5.00mm";1;"0.1uF";;;
+7;"A2";"PinHeader_1x04_P2.54mm_Vertical";1;"MPU-9255";;;
+8;"R10";"R_Axial_DIN0309_L9.0mm_D3.2mm_P12.70mm_Horizontal";1;"560";;;

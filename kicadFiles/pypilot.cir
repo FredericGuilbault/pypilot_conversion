@@ -1,0 +1,43 @@
+.title KiCad schematic
+A2 +12V +5V GND GND MH-MINI-360
+J1 Net-_A1-Pad1_ +5V Net-_A1-Pad4_ +5V Net-_A1-Pad3_ GND NC_01 Net-_A3-Pad2_ NC_02 Net-_J1-Pad10_ NC_03 NC_04 NC_05 NC_06 NC_07 NC_08 NC_09 NC_10 NC_11 NC_12 NC_13 NC_14 NC_15 NC_16 NC_17 NC_18 NC_19 NC_20 -1 NC_21 -10 +10 +1 NC_22 LED NC_23 AUTO Buzzer Net-_A1-Pad2_ StandBy PiZero W
+A3 Net-_A3-Pad1_ Net-_A3-Pad2_ NC_24 GND DIR NC_25 GND NC_26 GND Net-_A3-Pad10_ Net-_A3-Pad11_ PWM ~SLP NC_27 NC_28 NC_29 NC_30 NC_31 Net-_A3-Pad19_ Net-_A3-Pad20_ Net-_A3-Pad21_ GND GND GND GND GND Net-_A3-Pad27_ NC_32 GND Net-_A3-Pad30_ Arduino_Nano
+A4 +12V +12V Net-_A4-Pad3_ Net-_A4-Pad3_ Net-_A4-Pad5_ Net-_A4-Pad5_ GND GND GND DIR PWM ~SLP NC_33 Net-_A4-Pad14_ NC_34 NC_35 NC_36 Pololu#2991
+SW1 GND GND AUTO AUTO AUTO
+SW2 GND StandBy StandBy
+SW3 GND GND -10 -10 -10
+SW4 GND GND -1 -1 -1
+SW5 GND GND +1 +1 +1
+SW6 GND GND +10 +10 +10
+D1 GND Net-_D1-Pad2_ LED
+R2 LED Net-_D1-Pad2_ 1k2
+Q1 Net-_BZ1-Pad2_ Net-_Q1-Pad2_ GND BC547
+BZ1 +12V Net-_BZ1-Pad2_ Buzzer
+A1 Net-_A1-Pad1_ Net-_A1-Pad2_ Net-_A1-Pad3_ Net-_A1-Pad4_ NC_37 NC_38 NC_39 NC_40 NC_41 NC_42 MPU-9255
+R4 Net-_J1-Pad10_ GND R
+R3 Net-_A3-Pad1_ Net-_J1-Pad10_ R
+J2 Net-_A3-Pad1_ Net-_A3-Pad2_ NC_43 GND 1x4
+J3 Net-_A3-Pad1_ Net-_A3-Pad2_ NC_44 GND 1x4
+J4 LED -10 +10 StandBy +1 AUTO -1 Buzzer +5V GND +5V GND 2x6
+R1 Net-_Q1-Pad2_ Buzzer R
+J5 +12V Power +12V
+J6 GND Power 0V
+J7 Net-_A4-Pad3_ Motor A
+J8 Net-_A4-Pad5_ Motor B
+J9 NC_45 Net-_A3-Pad10_ Net-_A3-Pad11_ GND End Stops
+R9 Net-_A4-Pad14_ Net-_A3-Pad20_ 560
+R5 Net-_A3-Pad30_ +12V 100
+TH1 Net-_A3-Pad21_ GND 10k
+R8 Net-_A3-Pad27_ Net-_A3-Pad21_ 10k
+R7 Net-_A3-Pad19_ GND 560
+R6 +12V Net-_A3-Pad19_ 10k
+J10 +12V 12V
+J11 +12V 12V
+J12 GND GND
+GND1 GND Motor A
+C5 +12V GND 10uF
+C4 Net-_A3-Pad30_ GND 10uF
+C3 +5V GND 10uF
+C2 +5V GND 10uF
+C1 +12V GND 10uF
+.end

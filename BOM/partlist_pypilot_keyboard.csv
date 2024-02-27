@@ -1,0 +1,18 @@
+"Id";"Designator";"Package";"Quantity";"Designation";"Supplier and ref";
+1;"J1";"tab";1;"Power +12V";;;
+2;"J2";"tab";1;"Power 0V";;;
+3;"J3";"PinHeader_2x06_P2.54mm_Vertical";1;"2x6";;;
+4;"R2";"R_Axial_DIN0309_L9.0mm_D3.2mm_P12.70mm_Horizontal";1;"R";;;
+5;"C3,C2";"CP_Radial_D10.0mm_P5.00mm";2;"10uF";;;
+6;"A1";"MH-MINI-360";1;"MH-MINI-360";;;
+7;"BZ1";"Buzzer_D14mm_H7mm_P10mm";1;"Buzzer";;;
+8;"C1,C4";"C_Disc_D6.0mm_W2.5mm_P5.00mm";2;"0.1uF";;;
+9;"D1";"LED_D3.0mm";1;"LED";;;
+10;"Q1";"TO-92";1;"BC547";;;
+11;"R1";"R_Axial_DIN0309_L9.0mm_D3.2mm_P12.70mm_Horizontal";1;"1k2";;;
+12;"SW1";"SW_PUSH_6mm";1;"Auto";;;
+13;"SW2";"SW_PUSH_6mm";1;"StdBy";;;
+14;"SW3";"SW_PUSH_6mm";1;"-10";;;
+15;"SW4";"SW_PUSH_6mm";1;"-1";;;
+16;"SW5";"SW_PUSH_6mm";1;"+1";;;
+17;"SW6";"SW_PUSH_6mm";1;"+10";;;

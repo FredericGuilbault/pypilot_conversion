@@ -1,0 +1,4 @@
+(sym_lib_table
+  (lib (name "pypilot")(type "Legacy")(uri "${KIPRJMOD}/pypilot.lib")(options "")(descr ""))
+  (lib (name "pypilot-rescue")(type "Legacy")(uri "${KIPRJMOD}/pypilot-rescue.lib")(options "")(descr ""))
+)
