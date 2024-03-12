@@ -16,7 +16,7 @@ Each board also have a part list of electronics components you will need to sold
 Build notes:
 
 - Had to flip one resistor on the keyboard to the front; otherwise it was in the way of a piece of the plastic casing. Also had to tilt the buckdown converter to its side.
-- The motor board has one fault on it: the A3 input had to be tied to +5V, otherwise the controller thinks the motor is 170°C and would not move. Solved by cutting the pin 22 off the arduino and putting a resistor between arduino pins 22 and 27.
+
 - The current measuring is still a bit in progress. The Pololu CS (current sense) pin is supposed to give 'about 20 mV/A plus a 50 mV offset', but setting the servo.current.factor and .offset was not enough; I tweaked motor.ino a bit but don't get a linear reading so far.
 
 Images from the building process: https://photos.app.goo.gl/vQ7VHdccvfHCTUkM7
